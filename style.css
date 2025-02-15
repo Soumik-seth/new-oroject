@@ -1,0 +1,47 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+
+}
+.container{
+    background-color: yellow;
+
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 66px;
+}
+.inp{
+    width: 150px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.inp:hover{
+   
+    color: black;
+}
+.btwn{
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btwn:hover{
+    background-color: pink;
+}
+.in{
+    margin-top: 3px;
+    
+}
